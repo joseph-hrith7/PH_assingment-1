@@ -53,6 +53,7 @@ header{
 .lesson{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: -80px;
 }
 
 .lesson-left{
@@ -97,3 +98,34 @@ margin: 142px 150px 0px 0px;
     color: green;
     margin-right:10px;
 }
+/* plans section code here */
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0;
+}
+.item{
+
+text-align: center;
+}
+.item img{
+
+margin-bottom: 15px;
+}
+.plans-title{
+   
+    font-size: 25px;
+    line-height: 35px;
+    color: #151414;
+    margin-bottom: 10px;
+}
+.plans-body{
+    color: #737272;
+    font-size: 20px;
+}
+/* plans ends here */
