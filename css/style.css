@@ -163,3 +163,70 @@ margin-bottom: 15px;
     color: #F15B22;
 }
 /* Mindset ends here */
+/* footer starts here */
+.foot{
+    height: 400px;
+    background-color: #151414;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-left{
+    width: 50%;
+    margin-left: 164px;
+}
+.foot-title{
+
+    padding-top: 100px;
+}
+.foot-dis{
+
+text-align: left;
+
+margin: 30px 0px;
+
+font-size: 15px;
+}
+.m-and-e{
+
+    margin: 21px 0;
+}
+.foot-right{
+    width: 50%;
+    margin-left: 216px;
+}
+.sus-btn{
+ 
+    font-weight: 600;
+    border: none;
+    padding: 15px;
+    font-size: 21px;
+    line-height: 23px;
+    background: #fff9f7;
+    border-radius: 5px;
+    text-align: center;
+    color: #ff9a02;
+    margin: 20px 0;
+}
+.mail{
+
+padding: 16px 26px;
+
+margin-top: 24px;
+
+font-size: 18px;
+
+color: #ffffff;
+
+background-color: transparent;
+
+border: 1px solid white;
+
+border-radius: 10px;
+}
+.contact img {
+            
+    height: 30px;        
+    margin: 0 7px;
+}
+/* footer ends here */
