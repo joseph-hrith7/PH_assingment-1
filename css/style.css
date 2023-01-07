@@ -13,6 +13,11 @@ header{
     margin-bottom: 100px;
    
 }
+/* nav section */
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -54,11 +59,6 @@ header{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: -80px;
-}
-
-.lesson-left{
-  
-
 }
 .lesson-left img{
 
@@ -109,11 +109,9 @@ header{
     margin: 50px 0;
 }
 .item{
-
     text-align: center;
 }
 .item img{
-
     margin-bottom: 15px;
 }
 .plans-title{
@@ -164,7 +162,7 @@ header{
 /* Mindset ends here */
 /* footer starts here */
 .foot{
-    height: 400px;
+    height: 500px;
     background-color: #151414;
     color: #FFFFFF;
     display: flex;
@@ -179,14 +177,10 @@ header{
     padding-top: 100px;
 }
 .foot-dis{
-
-text-align: left;
-
-margin: 30px 0px;
-
-font-size: 15px;
-
-line-height: 28px;
+    text-align: left;
+    margin: 30px 0px;
+    font-size: 15px;
+    line-height: 28px;
 }
 .m-and-e{
 
@@ -197,11 +191,10 @@ line-height: 28px;
     margin-left: 216px;
 }
 .sus-btn{
- 
-    font-weight: 600;
-    border: none; 
+    font-weight: bold;
+    border: none;
     padding: 9px 12px;
-    font-size: 21px;
+    font-size: 15px;
     line-height: 23px;
     background: #fff9f7;
     border-radius: 5px;
@@ -211,19 +204,13 @@ line-height: 28px;
 }
 .mail{
 
-padding: 12px 26px;
-
-margin-top: 24px;
-
-font-size: 18px;
-
-color: #ffffff;
-
-background-color: transparent;
-
-border: 1px solid white;
-
-border-radius: 5px;
+    padding: 12px 26px;
+    margin-top: 24px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 .contact img {
             
@@ -231,3 +218,41 @@ border-radius: 5px;
     margin: 0 7px;
 }
 /* footer ends here */
+
+/*subscribe section css starts here*/
+.subscribe{
+    width: 100%;
+    padding: 20px, 0px;
+    margin-bottom: 50px;
+    }
+.subscribe-body{
+    margin-top: 70px;
+    }
+    .subscribe-box{
+    width: 50%;
+    background:#f6f4fc;
+    margin-left: 169px;
+    padding: 65px 144px;
+    text-align: center;
+    border-radius: 10px;
+    }
+    .subscribe-box:hover{
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4);
+    }
+    .subscribe-box p{
+    color: #4c527d;
+    margin: 20px 0px;
+    }
+    .email-input{
+    width: 40%;
+    padding: 10px;
+    border: none;
+    }
+    .send-button{
+    padding: 10px 25px;
+    font-weight: bold;
+    color: white;
+    background-color:#F15B22;
+    border: none;
+    border-radius: 5px;
+    }
